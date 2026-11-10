@@ -1,0 +1,1 @@
+{"status":"ok","stdout":"OK: short computation completed in 0.000s (result=499500)\nPARTIAL_OUTPUT_MARKER: this line was printed before timeout\n=== TIMEOUT TEST COMPLETE ===\nOK: busy loop interrupted after 5.0s (Execution time exceeded the limit.)\n","stderr":"","final_answer":null,"error":null,"output_partial":false,"truncated_streams":[]}

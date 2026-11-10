@@ -1,0 +1,5 @@
+{'task_file': '/home/oel--mou/Music/testing_as/evaluations/mbpp/2026-11-10_16-42-41/306/task.json', 'output': '/home/oel--mou/Music/testing_as/evaluations/mbpp/2026-11-10_16-42-41/306/solution.json', 'model_name': 'qwen/qwen3.8-27b', 'provider_url': 'https://api.groq.com/openai/v1', 'mcp_stdio': None, 'mcp_server': None}
+Agent args: task_file='/home/oel--mou/Music/testing_as/evaluations/mbpp/2026-11-10_16-42-41/306/task.json' output='/home/oel--mou/Music/testing_as/evaluations/mbpp/2026-11-10_16-42-41/306/solution.json' model_name='qwen/qwen3.8-27b' provider_url='https://api.groq.com/openai/v1' mcp_stdio='python mcp_tools_mbpp.py --task-file /home/oel--mou/Music/testing_as/evaluations/mbpp/2026-11-10_16-42-41/306/task.json' mcp_server=None
+Loading task from /home/oel--mou/Music/testing_as/evaluations/mbpp/2026-11-10_16-42-41/306/task.json...
+[11/10/26 16:43:24] INFO     Starting MCP server 'Agent Smith:  transport.py:241
+                             MBPP Tools' with transport 'stdio'                 

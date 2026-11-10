@@ -1,0 +1,1 @@
+{"status":"ok","stdout":"OK: TCP connection blocked\nOK: HTTP request blocked\nOK: HTTPS connection blocked\nOK: requests library blocked\nOK: non-network imports work\n=== NETWORK BLOCKED TEST COMPLETE ===\n","stderr":"","final_answer":null,"error":null,"output_partial":false,"truncated_streams":[]}

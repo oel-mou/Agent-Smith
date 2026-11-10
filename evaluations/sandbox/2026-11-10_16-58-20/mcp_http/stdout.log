@@ -1,0 +1,1 @@
+{"status":"ok","stdout":"Testing MCP HTTP connection...\nAvailable tools: ['add', 'multiply', 'echo']\nMissing tools: []\nadd(2, 3) = {'result': '5'}\nTool call successful!\n=== MCP HTTP CONFIG OK ===\n","stderr":"","final_answer":null,"error":null,"output_partial":false,"truncated_streams":[]}

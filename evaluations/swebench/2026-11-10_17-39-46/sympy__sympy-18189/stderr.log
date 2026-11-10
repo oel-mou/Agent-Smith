@@ -1,0 +1,71 @@
+{'task_file': '/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_17-39-46/sympy__sympy-18189/task.json', 'output': '/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_17-39-46/sympy__sympy-18189/solution.json', 'model_name': 'nvidia/nemotron-3.5-super-vl:free', 'provider_url': 'https://openrouter.ai/api/v1', 'mcp_stdio': None, 'mcp_server': None}
+Agent args: task_file='/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_17-39-46/sympy__sympy-18189/task.json' output='/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_17-39-46/sympy__sympy-18189/solution.json' model_name='nvidia/nemotron-3.5-super-vl:free' provider_url='https://openrouter.ai/api/v1' mcp_stdio='python mcp_tools_mbpp.py --task-file /home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_17-39-46/sympy__sympy-18189/task.json' mcp_server=None
+[11/10/26 17:39:53] INFO     Starting MCP server 'SWE_bench     transport.py:241
+                             server' with transport 'stdio'                     
+Traceback (most recent call last):
+  File "/home/oel--mou/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/oel--mou/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/oel--mou/Music/testing_as/agent_swebench/__main__.py", line 29, in <module>
+    start()
+  File "/home/oel--mou/Music/testing_as/agent_swebench/__main__.py", line 23, in start
+    agent_loop.run_task_from_file(args.task_file, args.output)
+  File "/home/oel--mou/Music/testing_as/agent_swebench/swe_agent_loop.py", line 166, in run_task_from_file
+    solution: SolutionOutput = self.run(task)
+  File "/home/oel--mou/Music/testing_as/agent_swebench/swe_agent_loop.py", line 189, in run
+    model_answer = self.provider.send_request(messages=self.context,
+  File "/home/oel--mou/Music/testing_as/agent/llm.py", line 65, in send_request
+    result = self._send_request_internal(messages, reasoning,
+  File "/home/oel--mou/Music/testing_as/agent/llm.py", line 163, in _send_request_internal
+    completion = self.client.chat.completions.create(
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/_utils/_utils.py", line 298, in wrapper
+    return func(*args, **kwargs)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1611, in create
+    return self._post(
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/_base_client.py", line 1474, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/_base_client.py", line 1183, in request
+    response = self._send_request(
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/_client.py", line 211, in _send_request
+    return sync_send_request(self, request, stream=stream, **kwargs)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/lib/_client_auth.py", line 328, in sync_send_request
+    response = self._send_with_auth_retry(request, stream=stream, **kwargs)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/_client.py", line 197, in _send_with_auth_retry
+    return sync_send_with_auth_retry(
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/lib/_client_auth.py", line 313, in sync_send_with_auth_retry
+    response = super(_owner, self)._send_request(request, stream=stream, **kwargs)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/openai/_base_client.py", line 1104, in _send_request
+    return self._client.send(request, stream=stream, **kwargs)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpx2/_client.py", line 980, in send
+    response = self._send_handling_auth(
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpx2/_client.py", line 1008, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpx2/_client.py", line 1043, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpx2/_client.py", line 1076, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpx2/_transports/default.py", line 245, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_sync/connection_pool.py", line 242, in handle_request
+    raise exc from None
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_sync/connection_pool.py", line 224, in handle_request
+    response = connection.handle_request(pool_request.request)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_sync/connection.py", line 96, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_sync/http11.py", line 125, in handle_request
+    raise exc
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_sync/http11.py", line 97, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_sync/http11.py", line 167, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_sync/http11.py", line 200, in _receive_event
+    data = self._network_stream.read(self.READ_NUM_BYTES, timeout=timeout)
+  File "/home/oel--mou/Music/testing_as/.venv/lib/python3.10/site-packages/httpcore2/_backends/sync.py", line 127, in read
+    return self._sock.recv(max_bytes)
+  File "/home/oel--mou/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/ssl.py", line 1304, in recv
+    return self.read(buflen)
+  File "/home/oel--mou/.local/share/uv/python/cpython-3.10-linux-x86_64-gnu/lib/python3.10/ssl.py", line 1177, in read
+    return self._sslobj.read(len)
+KeyboardInterrupt
+RESULT: FAILED (execution)

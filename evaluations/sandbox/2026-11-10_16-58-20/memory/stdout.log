@@ -1,0 +1,1 @@
+{"status":"ok","stdout":"OK: small allocation succeeded (1048576 bytes)\nOK: large allocation correctly raised MemoryError\n=== MEMORY TEST COMPLETE ===\n","stderr":"","final_answer":null,"error":null,"output_partial":false,"truncated_streams":[]}

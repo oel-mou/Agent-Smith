@@ -1,0 +1,1 @@
+{"status":"ok","stdout":"OK: eval blocked\nOK: exec blocked\nOK: compile blocked\nOK: safe builtins work\n=== BUILTINS BLOCKED TEST COMPLETE ===\n","stderr":"","final_answer":null,"error":null,"output_partial":false,"truncated_streams":[]}

@@ -1,0 +1,1 @@
+{"status":"ok","stdout":"OK: /etc/passwd blocked\nOK: path traversal blocked\nOK: /home blocked\nOK: /root blocked\nINFO: /tmp not in allowed directories (OK if not configured)\n=== FILE ACCESS TEST COMPLETE ===\n","stderr":"","final_answer":null,"error":null,"output_partial":false,"truncated_streams":[]}

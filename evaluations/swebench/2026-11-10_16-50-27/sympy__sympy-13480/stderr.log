@@ -1,0 +1,5 @@
+{'task_file': '/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_16-50-27/sympy__sympy-13480/task.json', 'output': '/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_16-50-27/sympy__sympy-13480/solution.json', 'model_name': 'nvidia/nemotron-3.5-super-vl:free', 'provider_url': 'https://openrouter.ai/api/v1', 'mcp_stdio': None, 'mcp_server': None}
+Agent args: task_file='/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_16-50-27/sympy__sympy-13480/task.json' output='/home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_16-50-27/sympy__sympy-13480/solution.json' model_name='nvidia/nemotron-3.5-super-vl:free' provider_url='https://openrouter.ai/api/v1' mcp_stdio='python mcp_tools_mbpp.py --task-file /home/oel--mou/Music/testing_as/evaluations/swebench/2026-11-10_16-50-27/sympy__sympy-13480/task.json' mcp_server=None
+image not found localy, pulling swebench/sweb.eval.x86_64.sympy_1776_sympy-13480:latest from dockerhub.
+[11/10/26 16:54:14] INFO     Starting MCP server 'SWE_bench     transport.py:241
+                             server' with transport 'stdio'                     

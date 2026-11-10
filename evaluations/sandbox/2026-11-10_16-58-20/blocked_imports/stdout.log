@@ -1,0 +1,1 @@
+{"status":"ok","stdout":"OK: os blocked\nOK: subprocess blocked\nOK: sys blocked\nOK: socket blocked\nOK: importlib blocked\nOK: builtins blocked\n=== BLOCKED IMPORTS TEST COMPLETE ===\n","stderr":"","final_answer":null,"error":null,"output_partial":false,"truncated_streams":[]}
